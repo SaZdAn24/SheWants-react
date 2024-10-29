@@ -8,18 +8,18 @@
   
   @font-face {
     font-family: 'Velour';
-    src: url('/fonts/Velour-Regular.woff2') format('woff2'),
-         url('/fonts/Velour-Regular.woff') format('woff'),
-         url('/fonts/Velour-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Velour-Regular.ttf') format('woff2'),
+         url('/src/assets/fonts/Velour-Regular.ttf') format('woff'),
+         url('/src/assets/fonts/Velour-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Montserrat';
-    src: url('/fonts/Montserrat.woff2') format('woff2'),
-         url('/fonts/Montserrat.woff') format('woff'),
-         url('/fonts/Montserrat.ttf') format('truetype');
+    src: url('/src/assets/fonts/Montserrat.ttf') format('woff2'),
+         url('/src/assets/fonts/Montserrat.ttf') format('woff'),
+         url('/src/assets/fonts/Montserrat.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
