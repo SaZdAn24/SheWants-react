@@ -12,11 +12,11 @@ import BooksyIcon from '../../assets/booksy.png';
 function Header() {
   return (
     <header className={styles.header}>
-        
+
       {/* Шапка с иконками и переключением языка */}
 
-      <div className={styles["top-bar"]}> {/* Используем квадратные скобки для top-bar */}
-        <div className={styles["social-contact"]}> {/* Используем квадратные скобки для social-contact */}
+      <div className={styles["top-bar"]}> 
+        <div className={styles["social-contact"]}> 
           <a href="https://www.instagram.com/she.wants.gdansk/" target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Instagram" className={styles.icon} />
           </a>
@@ -33,7 +33,7 @@ function Header() {
             <img src={BooksyIcon} alt="Booksy" className={styles.icon} />
           </a>
         </div>
-        <div className={styles["language-switch"]}> {/* Используем квадратные скобки для language-switch */}
+        <div className={styles["language-switch"]}> 
           <a href="/" onClick={(e) => e.preventDefault()} className={styles.lang}>PL</a>
           <span> | </span>
           <a href="/" onClick={(e) => e.preventDefault()} className={styles.lang}>EN</a>
