@@ -1,0 +1,26 @@
+  .about {
+    background-image: url('../../assets/zastawka.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-family: var(--decorative-font);
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about .about-content {
+    height: 500px;
+    width: 900px;
+  }
+  
+  .about p {
+    font-family: var(--main-font);
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  

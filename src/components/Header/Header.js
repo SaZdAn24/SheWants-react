@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
+
 import instagramIcon from '../../assets/instagram.png';
 import FacebookIcon from '../../assets/facebook.png';
 import EmailIcon from '../../assets/email.png';
