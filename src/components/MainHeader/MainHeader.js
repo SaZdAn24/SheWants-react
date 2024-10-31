@@ -39,15 +39,15 @@ function MainHeader() {
             <ul className="submenu">
               <li><a href="#twarz">Twarz</a></li>
               <li><a href="#ciało">Ciało</a></li>
-              <li><a href="#okolice-intymne">Okolice Intymне</a></li>
+              <li><a href="#okolice-intymne">Okolice Intymne</a></li>
               <li><a href="#twój-problem">Twój problem</a></li>
             </ul>
           </li>
-          <li><a href="#technology">Technologie</a></li>
+          <li><a href="#technology">Technology</a></li>
           <li>
-            <a href="#pricing">Cennик</a>
+            <a href="#pricing">Cennik</a>
             <ul className="submenu">
-              <li><a href="#kosmetologia">Kosmetология</a></li>
+              <li><a href="#kosmetologia">Kosmetologia</a></li>
               <li><a href="#Aesthetic-medicine">Aesthetic medicine</a></li>
             </ul>
           </li>
