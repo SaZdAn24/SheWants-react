@@ -8,7 +8,6 @@ const Card = ({ title, description, imgSrc, altText, id }) => {
       <div className="overlay">
         <h3>{title}</h3>
         <p>{description}</p>
-        {/* Стрелка с ссылкой на страницу процедуры */}
         <Link to={`/procedure/${id}`} className="open-modal-btn">➔</Link>
         <a href="#contact" className="cta-button">Zapisać się</a>
       </div>

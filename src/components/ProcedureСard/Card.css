@@ -72,3 +72,9 @@
     background-color: #c27b68; 
     transform: scale(1.05);
 }
+.open-modal-btn {
+    font-size: 1rem; 
+    color: white;
+    text-decoration: none;
+  }
+  

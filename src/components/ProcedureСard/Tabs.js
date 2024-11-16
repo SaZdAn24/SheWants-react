@@ -23,7 +23,7 @@ import lifting from "../../assets/lifting.jpg"
 export const contentData = {
   depilacja: [
     {
-      id: 'depilacja-laserowa', // Уникальный ID
+      id: 'depilacja-laserowa', 
       title: 'Depilacja Laserowa',
       description: 'Skuteczna metoda usuwania owłosienia na stałe. Efekty widoczne już po kilku zabiegach.',
       imgSrc: laserImage,
@@ -128,8 +128,8 @@ const Tabs = () => {
         <div className="grid">
           {contentData[activeTab].map((item) => (
             <Card
-              key={item.id} // Используйте id как ключ
-              id={item.id} // Передача id в Card
+              key={item.id} 
+              id={item.id} 
               title={item.title}
               description={item.description}
               imgSrc={item.imgSrc}

@@ -1,0 +1,72 @@
+/* Контейнер страницы */
+.procedure-details-container {
+    max-width: 100vw;
+    height: 100vh; /* Заполняем весь экран */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* Заголовок */
+  .procedure-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Основная информация */
+  .procedure-main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    gap: 10px;
+  }
+  
+  .procedure-image {
+    flex: 1;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .procedure-description {
+    flex: 2;
+    font-size: 0.9rem;
+  }
+  
+  /* До и после */
+  .before-after-section {
+    text-align: center;
+  }
+  
+  .before-after-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .before-image,
+  .after-image {
+    width: 120px; /* Уменьшены для компактного размещения */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Дополнительная информация */
+  .procedure-meta {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Ошибка */
+  .error-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
