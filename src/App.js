@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import MainHeader from './components/MainHeader/MainHeader';
 import AboutUs from './components/aboutUs/AboutUs';
 import Tabs from './components/ProcedureСard/Tabs';
+import Contact from './components/Contact/Contact';
 import ProcedureDetails from './components/ProcedureСard/ProcedureDetails'; 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/procedure/:id" element={<ProcedureDetails />} />
         </Routes>
       </div>
+      <Contact/>.
     </Router>
   );
 }
