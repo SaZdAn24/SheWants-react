@@ -15,6 +15,7 @@ function App() {
       <div className="app-container">
         <Header />
         <MainHeader />
+
         <Routes>
           <Route
             path="/"
@@ -22,15 +23,19 @@ function App() {
               <>
                 <AboutUs />
                 <Tabs />
+                <Contact /> 
               </>
             }
           />
-          <Route path="/procedure/:id" element={<ProcedureDetails />} />
+          <Route
+            path="/procedure/:id"
+            element={<ProcedureDetails />}
+          />
         </Routes>
       </div>
-      <Contact/>.
     </Router>
   );
 }
 
 export default App;
+
