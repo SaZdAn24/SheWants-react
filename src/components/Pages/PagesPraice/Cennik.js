@@ -2,17 +2,28 @@ import React, { useState } from "react";
 import './Cennik.css';
 
 const Cennik = [
-    {
-        category: "KWAS POLIMLEKOWY PLLA",
-        description: "Полимолочная кислота используется для стимуляции выработки коллагена и уплотнения кожи.",
-        subcategories: [
-          { name: "Twarz", price: "1000 zł" },
-          { name: "Policzki", price: "500 zł" },
-          { name: "Nos", price: "450 zł" },
-          { name: "Dłonie", price: "500 zł" },
-          { name: "Twarz + szyja", price: "1500 zł" },
-        ],
-      },
+  {
+    category: "KWAS POLIMLEKOWY PLLA",
+    description: "Полимолочная кислота используется для стимуляции выработки коллагена и уплотнения кожи.",
+    subcategories: [
+      { name: "Twarz", price: "1000 zł" },
+      { name: "Policzki", price: "500 zł" },
+      { name: "Nos", price: "450 zł" },
+      { name: "Dłonie", price: "500 zł" },
+      { name: "Twarz + szyja", price: "1500 zł" },
+    ],
+  },
+  {
+    category: "KWAS POLIMLEKOWY PLLA",
+    description: "",
+    subcategories: [
+        { name: "Twarz", price: "1000 zł" },
+        { name: "Policzki", price: "500 zł" },
+        { name: "Nos", price: "450 zł" },
+        { name: "Dłonie", price: "500 zł" },
+        { name: "Twarz + szyja", price: "1500 zł" },
+    ],
+  },
   {
     category: "HYDROKSYAPATYT WAPNIA",
     subcategories: [
@@ -40,8 +51,7 @@ const Cennik = [
         { name: "Policzki", price: "500 zł" },
         { name: "Nos", price: "450 zł" },
         { name: "Dłonie", price: "500 zł" },
-        { name: "Twarz + szyja", price: "1500 zł" },
-    ],
+        { name: "Twarz + szyja", price: "1500 zł" },],
   },
   {
     category: "MEDYCYNA REGENERACYJNA - STYMULATORY TKANKOWE",
@@ -85,6 +95,7 @@ const Cennik = [
   },
 ];
 
+
 const ProcedureList = () => {
   const [openCategory, setOpenCategory] = useState(null);
 
@@ -93,12 +104,12 @@ const ProcedureList = () => {
   };
 
   return (
-    <div className="container">
+    <div className="cennik-container">
       {Cennik.map((procedure, index) => (
-        <div key={index} className="procedure-block">
+        <div key={index} className="cennik-procedure-block">
           {/* Категория */}
           <div
-            className={`category ${openCategory === index ? "open" : ""}`}
+            className={`cennik-category ${openCategory === index ? "cennik-category-open" : ""}`}
             onClick={() => toggleCategory(index)}
           >
             <span>{procedure.category}</span>
@@ -107,16 +118,16 @@ const ProcedureList = () => {
 
           {/* Описание категории */}
           {openCategory === index && (
-            <div className="category-description">
+            <div className="cennik-category-description">
               <p>{procedure.description}</p>
             </div>
           )}
 
           {/* Подкатегории */}
           {openCategory === index && procedure.subcategories.length > 0 && (
-            <div className="subcategory">
+            <div className="cennik-subcategory">
               {procedure.subcategories.map((sub, subIndex) => (
-                <div key={subIndex} className="subcategory-item">
+                <div key={subIndex} className="cennik-subcategory-item">
                   <span>{sub.name}</span>
                   <span>{sub.price}</span>
                 </div>

@@ -7,7 +7,7 @@ import MainHeader from './components/MainHeader/MainHeader';
 import AboutUs from './components/aboutUs/AboutUs';
 import Tabs from './components/ProcedureСard/Tabs';
 import Contact from './components/Contact/Contact';
-import ProcedureDetails from './components/ProcedureСard/ProcedureDetails'; 
+import ProcedureDetails from './components/ProcedureСard/ProcedureDetails';
 import Cennik from './components/Pages/PagesPraice/Cennik';
 
 function App() {
@@ -24,14 +24,11 @@ function App() {
               <>
                 <AboutUs />
                 <Tabs />
-                <Contact /> 
+                <Contact />
               </>
             }
           />
-          <Route
-            path="/procedure/:id"
-            element={<ProcedureDetails />}
-          />
+          <Route path="/procedure/:id" element={<ProcedureDetails />} />
           <Route path="/cennik" element={<Cennik />} />
         </Routes>
       </div>
@@ -40,4 +37,3 @@ function App() {
 }
 
 export default App;
-

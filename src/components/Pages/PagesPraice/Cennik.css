@@ -1,5 +1,5 @@
 /* Контейнер */
-.container {
+.cennik-container {
     font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 40px auto;
@@ -7,15 +7,15 @@
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-  }
-  
-  /* Блок категории */
-  .procedure-block {
+}
+
+/* Блок категории */
+.cennik-procedure-block {
     margin-bottom: 20px;
-  }
-  
-  /* Категория */
-  .category {
+}
+
+/* Категория */
+.cennik-category {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,49 +27,54 @@
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-  }
-  
-  /* Hover-эффект */
-  .category:hover {
+}
+
+/* Hover-эффект */
+.cennik-category:hover {
     background-color: #eedca4;
     color: #fff;
-  }
-  
-  /* Описание категории */
-  .category-description {
+}
+
+/* Раскрытая категория */
+.cennik-category-open {
+    background-color: #eedca4;
+    color: #fff;
+}
+
+/* Описание категории */
+.cennik-category-description {
     margin: 10px 20px;
     font-size: 14px;
     color: #666;
     line-height: 1.5;
-  }
-  
-  /* Подкатегории */
-  .subcategory {
+}
+
+/* Подкатегории */
+.cennik-subcategory {
     padding: 10px 20px;
     margin-top: 10px;
     background-color: #f7f7f7;
     border-radius: 5px;
     border-left: 4px solid #eedca4;
-  }
-  
-  /* Элемент подкатегории */
-  .subcategory-item {
+}
+
+/* Элемент подкатегории */
+.cennik-subcategory-item {
     display: flex;
     justify-content: space-between;
     padding: 8px 0;
     font-size: 16px;
     color: #444;
     border-bottom: 1px dashed #ddd;
-  }
-  
-  /* Последний элемент без линии */
-  .subcategory-item:last-child {
+}
+
+/* Последний элемент без линии */
+.cennik-subcategory-item:last-child {
     border-bottom: none;
-  }
-  
-  /* Цвет текста для цены */
-  .subcategory-item span:last-child {
+}
+
+/* Цвет текста для цены */
+.cennik-subcategory-item span:last-child {
     color: #eedca4;
     font-weight: bold;
-  }
-  
+}
