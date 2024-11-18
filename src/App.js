@@ -8,6 +8,7 @@ import AboutUs from './components/aboutUs/AboutUs';
 import Tabs from './components/ProcedureСard/Tabs';
 import Contact from './components/Contact/Contact';
 import ProcedureDetails from './components/ProcedureСard/ProcedureDetails'; 
+import Cennik from './components/Pages/PagesPraice/Cennik';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             path="/procedure/:id"
             element={<ProcedureDetails />}
           />
+          <Route path="/cennik" element={<Cennik />} />
         </Routes>
       </div>
     </Router>

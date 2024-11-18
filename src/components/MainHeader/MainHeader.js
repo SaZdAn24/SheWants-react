@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Импортируйте Link из react-router-dom
+import { Link } from 'react-router-dom';  
 import './MainHeader.css'; 
 
 import logoIcon from '../../assets/favicon.png';
@@ -9,7 +9,6 @@ function MainHeader() {
   return (
     <header className="main-header">
       <div className="logo">
-        {/* Сделаем логотип ссылкой на главную страницу */}
         <Link to="/">
           <img src={logoIcon} alt="She Wants Gdansk" />
         </Link>
@@ -20,7 +19,6 @@ function MainHeader() {
       </div>
       <nav>
         <ul>
-          {/* Кнопка "Home" также будет ссылкой на главную страницу */}
           <li><Link to="/">Home</Link></li>
           <li>
             <a href="#about">O Nas</a>
@@ -48,7 +46,9 @@ function MainHeader() {
           </li>
           <li><a href="#technology">Technology</a></li>
           <li>
-            <a href="#pricing">Cennik</a>
+          <li>
+            <Link to="/cennik">Cennik</Link>
+          </li>
             <ul className="submenu">
               <li><a href="#kosmetologia">Kosmetologia</a></li>
               <li><a href="#Aesthetic-medicine">Aesthetic medicine</a></li>
