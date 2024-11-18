@@ -23,7 +23,9 @@ function MainHeader() {
           <li>
             <a href="#about">O Nas</a>
             <ul className="submenu">
-              <li><a href="#zespół">Zespół</a></li>
+              <li>
+                <Link to ="/team">Zespół</Link>
+                </li>
               <li><a href="#gabinet">Gabinet</a></li>
               <li><a href="#metamorfozy">Metamorfozy</a></li>
             </ul>
