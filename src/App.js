@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import ProcedureDetails from './components/ProcedureСard/ProcedureDetails';
 import Cennik from './components/Pages/PagesPraice/Cennik';
 import Team from './components/Pages/Team/Team';
+import Map from './components/Map/Map';
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
       <div className="app-container">
         <Header />
         <MainHeader />
-
         <Routes>
           <Route
             path="/"
@@ -26,13 +26,13 @@ function App() {
                 <AboutUs />
                 <Tabs />
                 <Contact />
+                <Map /> 
               </>
             }
           />
           <Route path="/procedure/:id" element={<ProcedureDetails />} />
           <Route path="/cennik" element={<Cennik />} />
           <Route path="/team" element={<Team />} />
-
         </Routes>
       </div>
     </Router>
