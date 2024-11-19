@@ -1,29 +1,40 @@
+// components/Pages/Oferta/Oferta.js
 import React from "react";
+import { Link } from "react-router-dom"; // Используйте Link для маршрутизации
 import "./Oferta.css";
+
+import massaz from "../../../assets/promo/massaz.jpg";
+import depilacija_promo from "../../../assets/promo/depilacija_promo.jpg";
+import PRX_T from "../../../assets/promo/PRX_T.jpg";
+import Rf from "../../../assets/promo/Rf.jpg";
+import dmk from "../../../assets/promo/dmk.jpg";
 
 const Oferta = () => {
   const cards = [
     {
-      image: "path-to-image-1.jpg",
+      image: massaz,
       title: "АКЦИЯ ЛЕТО: МАССАЖ ПОДДАВЛИВАЮЩИЙ ICOONE LASER MED II С СКИДКОЙ ДО 50%",
+      link: "/massaz",
     },
     {
-      image: "path-to-image-2.jpg",
-      title:
-        "БЕЗБОЛЕЗНЕННАЯ ДЕПИЛЯЦИЯ ЛАЗЕРОМ И ГЛАДКОЕ ТЕЛО НА ДОЛГИЕ ГОДЫ ПО СНИЖЕННЫМ ЦЕНАМ",
+      image: depilacija_promo,
+      title: "БЕЗБОЛЕЗНЕННАЯ ДЕПИЛЯЦИЯ ЛАЗЕРОМ И ГЛАДКОЕ ТЕЛО НА ДОЛГИЕ ГОДЫ ПО СНИЖЕННЫМ ЦЕНАМ",
+      link: "/depilacija",
     },
     {
-      image: "path-to-image-3.jpg",
-      title:
-        "Эгзосомы ASCE+: продвинутая регенеративная терапия с анти-эйдж эффектом",
+      image: PRX_T,
+      title: "Эгзосомы ASCE+: продвинутая регенеративная терапия с анти-эйдж эффектом",
+      link: "/prx_t",
     },
     {
-      image: "path-to-image-4.jpg",
+      image: Rf,
       title: "АКЦИЯ ЛЕТО: ПОБЕДИТЕЛЬ ЦЕЛЛЮЛИТА STORZ D-ACTOR СО СКИДКОЙ ДО 50%",
+      link: "/rf",
     },
     {
-      image: "path-to-image-5.jpg",
+      image: dmk,
       title: "ПРОМОЦИЯ: УВЕЛИЧЕНИЕ ГУБ СО СКИДКОЙ 100 ЗЛ ДО КОНЦА МАЯ",
+      link: "/dmk",
     },
   ];
 
@@ -31,9 +42,9 @@ const Oferta = () => {
     <div className="card-grid">
       {cards.map((card, index) => (
         <div key={index} className="card">
-          <div className="card-image-wrapper">
+          <Link to={card.link} className="card-image-wrapper">
             <img src={card.image} alt={card.title} className="card-image" />
-          </div>
+          </Link>
           <p className="card-title">{card.title}</p>
         </div>
       ))}

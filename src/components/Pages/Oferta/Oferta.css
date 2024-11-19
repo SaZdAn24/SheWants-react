@@ -36,7 +36,7 @@
   
   /* Эффект при наведении */
   .card-image-wrapper:hover .card-image {
-    transform: rotate(15deg) scale(1.1); /* Поворот на 15 градусов и масштабирование */
+    transform: rotate(10deg) scale(1.1); /* Поворот на 15 градусов и масштабирование */
   }
   
   /* Заголовок карточки */

@@ -40,7 +40,7 @@ function MainHeader() {
           <li>
           <Link to="/oferta">Oferta</Link>
             <ul className="submenu">
-              <li><a href="#twarz">Twarz</a></li>
+              <li><Link to="/twarz">Twarz</Link></li>
               <li><a href="#ciało">Ciało</a></li>
               <li><a href="#okolice-intymne">Okolice Intymne</a></li>
               <li><a href="#twój-problem">Twój problem</a></li>

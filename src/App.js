@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -14,6 +15,7 @@ import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
 import Kontakt from './components/Pages/Kontakt/Kontakt';
 import Oferta from './components/Pages/Oferta/Oferta';
+import Twarz from './components/Pages/Twarz/Twarz';
 
 function App() {
   return (
@@ -39,7 +41,8 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/oferta" element={<Oferta />} />
-          </Routes>
+          <Route path="/twarz" element={<Twarz />} />
+        </Routes>
       </div>
       <Footer />
     </Router>
