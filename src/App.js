@@ -12,6 +12,8 @@ import Cennik from './components/Pages/PagesPraice/Cennik';
 import Team from './components/Pages/Team/Team';
 import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
+import Kontakt from './components/Pages/Kontakt/Kontakt';
+import Oferta from './components/Pages/Oferta/Oferta';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <div className="app-container">
         <Header />
         <MainHeader />
+        
         <Routes>
           <Route
             path="/"
@@ -28,15 +31,17 @@ function App() {
                 <Tabs />
                 <Contact />
                 <Map /> 
-                <Footer />
               </>
             }
           />
           <Route path="/procedure/:id" element={<ProcedureDetails />} />
           <Route path="/cennik" element={<Cennik />} />
           <Route path="/team" element={<Team />} />
-        </Routes>
+          <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/oferta" element={<Oferta />} />
+          </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

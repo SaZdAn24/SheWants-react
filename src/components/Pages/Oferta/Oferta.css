@@ -1,0 +1,49 @@
+/* Сетка карточек */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Карточка */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; 
+    color: #333; 
+  }
+  
+  /* Обертка для изображения */
+  .card-image-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px; /* Регулируйте высоту */
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Изображение */
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Эффект при наведении */
+  .card-image-wrapper:hover .card-image {
+    transform: rotate(15deg) scale(1.1); /* Поворот на 15 градусов и масштабирование */
+  }
+  
+  /* Заголовок карточки */
+  .card-title {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #555; 
+  }
+  

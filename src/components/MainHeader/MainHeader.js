@@ -38,7 +38,7 @@ function MainHeader() {
             </ul>
           </li>
           <li>
-            <a href="#oferta">Oferta</a>
+          <Link to="/oferta">Oferta</Link>
             <ul className="submenu">
               <li><a href="#twarz">Twarz</a></li>
               <li><a href="#ciało">Ciało</a></li>
@@ -56,7 +56,9 @@ function MainHeader() {
               <li><a href="#Aesthetic-medicine">Aesthetic medicine</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Kontakt</a></li>
+          <li>
+          <Link to="/kontakt">Kontakt</Link>
+          </li>
         </ul>
       </nav>
       <a href="#contact-form" className="book-button">Umów wizytę</a>
