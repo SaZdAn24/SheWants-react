@@ -1,0 +1,63 @@
+.footer {
+    background-color: #ffffff;
+    color: #030303;
+    padding: 20px 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #080808;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-back-to-top {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-to-top-btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #030303;
+  }
+  
+  .footer-recaptcha {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #020202;
+  }
+  
+  .footer-recaptcha p {
+    margin: 0;
+  }
+
+.footer a[href="mailto:kontakt@fbconcept.pl"] {
+    text-decoration: none;  
+    color: #000000; 
+  }
+  
+  .footer a[href="mailto:kontakt@fbconcept.pl"]:hover {
+    color: #000000; 
+    text-decoration: none;  
+  }

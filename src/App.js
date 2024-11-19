@@ -11,6 +11,7 @@ import ProcedureDetails from './components/ProcedureСard/ProcedureDetails';
 import Cennik from './components/Pages/PagesPraice/Cennik';
 import Team from './components/Pages/Team/Team';
 import Map from './components/Map/Map';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                 <Tabs />
                 <Contact />
                 <Map /> 
+                <Footer />
               </>
             }
           />
