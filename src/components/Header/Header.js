@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
+import { useTranslation } from 'react-i18next';
 
 import instagramIcon from '../../assets/instagram.png';
 import FacebookIcon from '../../assets/facebook.png';
@@ -7,15 +8,15 @@ import EmailIcon from '../../assets/email.png';
 import PhoneIcon from '../../assets/iphone.png';
 import BooksyIcon from '../../assets/booksy.png';
 
-
-
-
 function Header() {
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang); 
+  };
+  
   return (
     <header className={styles.header}>
-
-      {/* Шапка с иконками и переключением языка */}
-
       <div className={styles["top-bar"]}> 
         <div className={styles["social-contact"]}> 
           <a href="https://www.instagram.com/she.wants.gdansk/" target="_blank" rel="noopener noreferrer">
@@ -35,11 +36,11 @@ function Header() {
           </a>
         </div>
         <div className={styles["language-switch"]}> 
-          <a href="/" onClick={(e) => e.preventDefault()} className={styles.lang}>PL</a>
+          <button onClick={() => changeLanguage('pl')} className={styles.lang}>PL</button>
           <span> | </span>
-          <a href="/" onClick={(e) => e.preventDefault()} className={styles.lang}>EN</a>
+          <button onClick={() => changeLanguage('en')} className={styles.lang}>EN</button>
           <span> | </span>
-          <a href="/" onClick={(e) => e.preventDefault()} className={styles.lang}>RU</a>
+          <button onClick={() => changeLanguage('ru')} className={styles.lang}>RU</button>
         </div>
       </div>
     </header>

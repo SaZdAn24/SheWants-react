@@ -1,0 +1,29 @@
+{
+  "logoAlt": "She Wants Gdansk",
+  "brandName": "She Wants Gdansk",
+  "specialization": "Aesthetic Medicine",
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Team",
+    "office": "Office",
+    "metamorphoses": "Metamorphoses",
+    "services": "Services",
+    "laserHairRemoval": "Laser Hair Removal",
+    "skinCare": "Skin Care",
+    "offer": "Offer",
+    "face": "Face",
+    "body": "Body",
+    "intimateAreas": "Intimate Areas",
+    "yourProblem": "Your Problem",
+    "technology": "Technology",
+    "prices": "Prices",
+    "cosmetology": "Cosmetology",
+    "aestheticMedicine": "Aesthetic Medicine",
+    "contact": "Contact"
+  },
+  "bookAppointment": "Book Appointment",
+  "searchAlt": "Search",
+  "searchPlaceholder": "Enter your query",
+  "searchButton": "Search"
+}

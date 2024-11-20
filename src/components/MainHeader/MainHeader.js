@@ -1,78 +1,82 @@
-import React from 'react';
-import { Link } from 'react-router-dom';  
-import './MainHeader.css'; 
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import './MainHeader.css';
 
 import logoIcon from '../../assets/favicon.png';
 import searchIcon from '../../assets/poisk.png';
 
 function MainHeader() {
+  const { t } = useTranslation();
+  const [searchVisible, setSearchVisible] = useState(false);
+
+  const toggleSearch = () => {
+    setSearchVisible(!searchVisible);
+  };
+
   return (
     <header className="main-header">
       <div className="logo">
         <Link to="/">
-          <img src={logoIcon} alt="She Wants Gdansk" />
+          <img src={logoIcon} alt={t('logoAlt')} />
         </Link>
         <div className="brand-text">
-          <span className="brand-name">She Wants Gdansk</span>
-          <span className="specialization">Medycyna estetyczna</span>
+          <span className="brand-name">{t('brandName')}</span>
+          <span className="specialization">{t('specialization')}</span>
         </div>
       </div>
+
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">{t('menu.home')}</Link></li>
           <li>
-            <a href="#about">O Nas</a>
+            <a href="#about">{t('menu.about')}</a>
             <ul className="submenu">
-              <li>
-                <Link to ="/team">Zespół</Link>
-                </li>
-              <li><a href="#gabinet">Gabinet</a></li>
-              <li><a href="#metamorfozy">Metamorfozy</a></li>
+              <li><Link to="/team">{t('menu.team')}</Link></li>
+              <li><a href="#gabinet">{t('menu.office')}</a></li>
+              <li><a href="#metamorfozy">{t('menu.metamorphoses')}</a></li>
             </ul>
           </li>
           <li>
-            <a href="#services">Usługi</a>
+            <a href="#services">{t('menu.services')}</a>
             <ul className="submenu">
-              <li><a href="#laser">Depilacja laserowa</a></li>
-              <li><a href="#skin-care">Pielęgnacja skóry</a></li>
+              <li><a href="#laser">{t('menu.laserHairRemoval')}</a></li>
+              <li><a href="#skin-care">{t('menu.skinCare')}</a></li>
             </ul>
           </li>
           <li>
-          <Link to="/oferta">Oferta</Link>
-           
+            <Link to="/oferta">{t('menu.offer')}</Link>
             <ul className="submenu">
-                <li><Link to="/twarz">Twarz</Link></li>
-                <li><Link to="/ciało">Ciało</Link></li>
-                <li><Link to="/okolice-intymne">Okolice Intymne</Link></li>
-                <li><Link to="/twój-problem">Twój problem</Link></li>
+              <li><Link to="/twarz">{t('menu.face')}</Link></li>
+              <li><Link to="/ciało">{t('menu.body')}</Link></li>
+              <li><Link to="/okolice-intymne">{t('menu.intimateAreas')}</Link></li>
+              <li><Link to="/twój-problem">{t('menu.yourProblem')}</Link></li>
             </ul>
           </li>
-          <li><a href="#technology">Technology</a></li>
+          <li><a href="#technology">{t('menu.technology')}</a></li>
           <li>
-          <li>
-            <Link to="/cennik">Cennik</Link>
-          </li>
+            <Link to="/cennik">{t('menu.prices')}</Link>
             <ul className="submenu">
-              <li><a href="#kosmetologia">Kosmetologia</a></li>
-              <li><a href="#Aesthetic-medicine">Aesthetic medicine</a></li>
+              <li><a href="#kosmetologia">{t('menu.cosmetology')}</a></li>
+              <li><a href="#Aesthetic-medicine">{t('menu.aestheticMedicine')}</a></li>
             </ul>
           </li>
-          <li>
-          <Link to="/kontakt">Kontakt</Link>
-          </li>
+          <li><Link to="/kontakt">{t('menu.contact')}</Link></li>
         </ul>
       </nav>
-      <a href="#contact-form" className="book-button">Umów wizytę</a>
-      <button id="toggle-search" className="search-icon">
-        <img src={searchIcon} alt="Поиск" />
+
+      <a href="#contact-form" className="book-button">{t('bookAppointment')}</a>
+
+      <button id="toggle-search" className="search-icon" onClick={toggleSearch}>
+        <img src={searchIcon} alt={t('searchAlt')} />
       </button>
-      <div className="search-container" style={{ display: 'none' }}>
-        <input type="text" id="search-input" placeholder="Введите запрос" />
-        <button id="search-button">Поиск</button>
-      </div>
-      <div id="search-results" style={{ display: 'none' }}>
-        <ul id="results-list"></ul>
-      </div>
+
+      {searchVisible && (
+        <div className="search-container">
+          <input type="text" id="search-input" placeholder={t('searchPlaceholder')} />
+          <button id="search-button">{t('searchButton')}</button>
+        </div>
+      )}
     </header>
   );
 }

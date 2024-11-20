@@ -1,6 +1,6 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; 
 import './App.css';
 
 import Header from './components/Header/Header';
@@ -18,6 +18,9 @@ import Oferta from './components/Pages/Oferta/Oferta';
 import Twarz from './components/Pages/Twarz/Twarz';
 
 function App() {
+
+  const { t, i18n } = useTranslation();
+  
   return (
     <Router>
       <div className="app-container">

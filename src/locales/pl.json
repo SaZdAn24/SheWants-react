@@ -1,0 +1,30 @@
+{
+    "logoAlt": "She Wants Gdansk",
+    "brandName": "She Wants Gdansk",
+    "specialization": "Medycyna estetyczna",
+    "menu": {
+      "home": "Strona główna",
+      "about": "O Nas",
+      "team": "Zespół",
+      "office": "Gabinet",
+      "metamorphoses": "Metamorfozy",
+      "services": "Usługi",
+      "laserHairRemoval": "Depilacja laserowa",
+      "skinCare": "Pielęgnacja skóry",
+      "offer": "Oferta",
+      "face": "Twarz",
+      "body": "Ciało",
+      "intimateAreas": "Okolice Intymne",
+      "yourProblem": "Twój problem",
+      "technology": "Technologia",
+      "prices": "Cennik",
+      "cosmetology": "Kosmetologia",
+      "aestheticMedicine": "Medycyna estetyczna",
+      "contact": "Kontakt"
+    },
+    "bookAppointment": "Umów wizytę",
+    "searchAlt": "Wyszukiwanie",
+    "searchPlaceholder": "Wprowadź zapytanie",
+    "searchButton": "Szukaj"
+  }
+  

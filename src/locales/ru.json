@@ -1,0 +1,29 @@
+{
+  "logoAlt": "She Wants Gdansk",
+  "brandName": "She Wants Gdansk",
+  "specialization": "Эстетическая медицина",
+  "menu": {
+    "home": "Главная",
+    "about": "О Нас",
+    "team": "Команда",
+    "office": "Кабинет",
+    "metamorphoses": "Метаморфозы",
+    "services": "Услуги",
+    "laserHairRemoval": "Лазерная эпиляция",
+    "skinCare": "Уход за кожей",
+    "offer": "Предложение",
+    "face": "Лицо",
+    "body": "Тело",
+    "intimateAreas": "Интимные зоны",
+    "yourProblem": "Ваша проблема",
+    "technology": "Технологии",
+    "prices": "Цены",
+    "cosmetology": "Косметология",
+    "aestheticMedicine": "Эстетическая медицина",
+    "contact": "Контакт"
+  },
+  "bookAppointment": "Записаться на приём",
+  "searchAlt": "Поиск",
+  "searchPlaceholder": "Введите запрос",
+  "searchButton": "Поиск"
+}
