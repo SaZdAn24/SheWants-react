@@ -1,6 +1,6 @@
 // components/Pages/Oferta/Oferta.js
 import React from "react";
-import { Link } from "react-router-dom"; // Используйте Link для маршрутизации
+import { Link } from "react-router-dom"; 
 import "./Oferta.css";
 
 import massaz from "../../../assets/promo/massaz.jpg";
@@ -14,7 +14,7 @@ const Oferta = () => {
     {
       image: massaz,
       title: "АКЦИЯ ЛЕТО: МАССАЖ ПОДДАВЛИВАЮЩИЙ ICOONE LASER MED II С СКИДКОЙ ДО 50%",
-      link: "/massaz",
+      link: "/twarz",
     },
     {
       image: depilacija_promo,

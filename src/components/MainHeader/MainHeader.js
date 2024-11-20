@@ -39,11 +39,12 @@ function MainHeader() {
           </li>
           <li>
           <Link to="/oferta">Oferta</Link>
+           
             <ul className="submenu">
-              <li><Link to="/twarz">Twarz</Link></li>
-              <li><a href="#ciało">Ciało</a></li>
-              <li><a href="#okolice-intymne">Okolice Intymne</a></li>
-              <li><a href="#twój-problem">Twój problem</a></li>
+                <li><Link to="/twarz">Twarz</Link></li>
+                <li><Link to="/ciało">Ciało</Link></li>
+                <li><Link to="/okolice-intymne">Okolice Intymne</Link></li>
+                <li><Link to="/twój-problem">Twój problem</Link></li>
             </ul>
           </li>
           <li><a href="#technology">Technology</a></li>
