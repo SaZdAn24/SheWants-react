@@ -2,20 +2,20 @@
   padding: 0;
   margin: 0;
   position: relative;
-  z-index: 1; /* Задний план */
+  z-index: 1; 
 }
 
 .slick-slider,
 .slick-list,
 .slick-track {
-  height: 60vh; /* Высота слайдера теперь 60% от высоты экрана */
+  height: 80vh; 
 }
 
 .slide-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Покрывает весь контейнер */
-  object-position: center top; /* Поднимет изображение вверх */
+  object-fit: contain; 
+  object-position: center; 
 }
 
 .slick-arrow {
@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 2; /* Передний план для кнопок */
+  z-index: 2; 
 }
 
 .slick-next {

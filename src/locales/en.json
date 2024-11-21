@@ -25,5 +25,13 @@
   "bookAppointment": "Book Appointment",
   "searchAlt": "Search",
   "searchPlaceholder": "Enter your query",
-  "searchButton": "Search"
+  "searchButton": "Search",
+  "procedure_not_found": "Procedure not found",
+  "goal": "Goal",
+  "effect": "Effect",
+  "before_and_after": "Before and After",
+  "before": "before",
+  "cost": "Cost",
+  "duration": "Duration",
+  "sign_up": "Sign up"
 }

@@ -25,5 +25,14 @@
   "bookAppointment": "Записаться на приём",
   "searchAlt": "Поиск",
   "searchPlaceholder": "Введите запрос",
-  "searchButton": "Поиск"
+  "searchButton": "Поиск",
+
+  "procedure_not_found": "Процедура не найдена",
+  "goal": "Цель",
+  "effect": "Эффект",
+  "before_and_after": "До и после",
+  "before": "до",
+  "cost": "Стоимость",
+  "duration": "Длительность",
+  "sign_up": "Записаться"
 }
