@@ -143,5 +143,19 @@
     "companyName": "Face & Body Concept",
     "bankAccount": "Bank account for transfers:",
     "contactInfo": "CONTACT INFORMATION",
-    "privacy": "Privacy - Terms of Use"
+    "privacy": "Privacy - Terms of Use",
+
+    "contact": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "onlineReservation": "Online Reservation",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "yourPhone": "Your Phone Number",
+    "yourMessage": "Your Message",
+    "submit": "Submit",
+    "successMessage": "Your message has been sent successfully!",
+    "errorMessage": "An error occurred while sending the form. Please try again.",
+    "close": "Close"
 }

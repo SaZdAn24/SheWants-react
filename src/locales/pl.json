@@ -158,5 +158,19 @@
   "companyName": "Face & Body Concept",
   "bankAccount": "Numer konta do przelewów:",
   "contactInfo": "INFORMACJE KONTAKTOWE",
-  "privacy": "Prywatność - Warunki użytkowania"
+  "privacy": "Prywatność - Warunki użytkowania",
+
+  "contact": "Kontakt",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "Email",
+    "onlineReservation": "Rezerwacja online",
+    "yourName": "Twoje imię",
+    "yourEmail": "Twój email",
+    "yourPhone": "Twój numer telefonu",
+    "yourMessage": "Twoja wiadomość",
+    "submit": "Zarezerwuj",
+    "successMessage": "Twoja wiadomość została wysłana pomyślnie!",
+    "errorMessage": "Wystąpił błąd podczas wysyłania formularza. Spróbuj ponownie.",
+    "close": "Zamknij"
 }
