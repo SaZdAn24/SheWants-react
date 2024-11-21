@@ -19,13 +19,13 @@ const ProcedureDetails = () => {
 
   return (
     <div className="procedure-details-container">
-      <h1 className="procedure-title">{procedure.title}</h1>
+      <h1 className="procedure-title">{t(procedure.id + '-title')}</h1>
       <div className="procedure-main-info">
         <img src={procedure.imgSrc} alt={procedure.title} className="procedure-image" />
         <div className="procedure-description">
-          <p>{procedure.description}</p>
-          <p><strong>{t('goal')}:</strong> {procedure.goal}</p>
-          <p><strong>{t('effect')}:</strong> {procedure.effect}</p>
+          <p>{t(procedure.id + '-description')}</p>
+          <p><strong>{t('goal')}:</strong> {t(procedure.id + '-goal')}</p>
+          <p><strong>{t('effect')}:</strong> {t(procedure.id + '-effect')}</p>
         </div>
       </div>
       <div className="before-after-section">
@@ -42,5 +42,6 @@ const ProcedureDetails = () => {
     </div>
   );
 };
+
 
 export default ProcedureDetails;

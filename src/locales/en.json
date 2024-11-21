@@ -33,5 +33,55 @@
   "before": "before",
   "cost": "Cost",
   "duration": "Duration",
-  "sign_up": "Sign up"
+  "sign_up": "Sign up",
+
+  "depilacja-laserowa-title": "Laser Hair Removal",
+  "depilacja-laserowa-description": "Laser hair removal is a safe and effective method of hair removal. It is ideal for those who want to get rid of unwanted hair for a long time.",
+  "depilacja-laserowa-goal": "The goal of the procedure is to permanently remove hair, leaving the skin smooth.",
+  "depilacja-laserowa-effect": "Effect: smooth skin, no irritation. Over time, hair may regrow in smaller amounts.",
+  
+  "depilacja-woskiem-title": "Wax Hair Removal",
+  "depilacja-woskiem-description": "Wax hair removal is a method that removes hair from the root. The effect lasts for several weeks.",
+  "depilacja-woskiem-goal": "The goal of the procedure is to remove unwanted hair for a long time.",
+  "depilacja-woskiem-effect": "Effect: smooth skin for an extended period.",
+  
+  "depilacja-cukrowa-title": "Sugaring",
+  "depilacja-cukrowa-description": "Sugaring is a natural hair removal method using sugar paste. It is more gentle than traditional waxing.",
+  "depilacja-cukrowa-goal": "The goal of the procedure is to remove hair and moisturize the skin.",
+  "depilacja-cukrowa-effect": "Effect: smooth skin and hydration.",
+  
+  "masaz-klasyczny-title": "Classic Massage",
+  "masaz-klasyczny-description": "Classic massage is one of the oldest and most well-known types of massage. It helps relax muscles and relieve tension.",
+  "masaz-klasyczny-goal": "The goal of classic massage is to improve circulation, reduce stress, and relax muscles.",
+  "masaz-klasyczny-effect": "Effect: relaxation, reduced muscle tension, improved well-being.",
+  
+  "masaz-tajski-title": "Thai Massage",
+  "masaz-tajski-description": "Thai massage is a traditional relaxation technique that combines acupressure and stretching. It helps improve the flexibility of the body.",
+  "masaz-tajski-goal": "The goal of Thai massage is to restore the body's energy balance and improve flexibility.",
+  "masaz-tajski-effect": "Effect: improved flexibility, relaxation, and reduced tension.",
+  
+  "masaz-limfatyczny-title": "Lymphatic Massage",
+  "masaz-limfatyczny-description": "Lymphatic massage helps improve lymph circulation and assists in toxin removal from the body.",
+  "masaz-limfatyczny-goal": "The goal of lymphatic massage is to support the lymphatic system in removing toxins.",
+  "masaz-limfatyczny-effect": "Effect: improved lymphatic circulation, reduced swelling, cellulite reduction.",
+  
+  "botox-title": "Botox",
+  "botox-description": "Botox is a popular cosmetic procedure that helps smooth wrinkles and improve skin appearance.",
+  "botox-goal": "The goal of the procedure is to smooth wrinkles and improve skin elasticity.",
+  "botox-effect": "Effect: smooth wrinkles, more youthful appearance.",
+  
+  "kwas-hialuronowy-title": "Hyaluronic Acid",
+  "kwas-hialuronowy-description": "Hyaluronic acid treatment involves injecting a substance that moisturizes and smooths the skin.",
+  "kwas-hialuronowy-goal": "The goal of the procedure is to hydrate the skin and restore volume where it has lost elasticity.",
+  "kwas-hialuronowy-effect": "Effect: skin hydration, smoothing, volume restoration.",
+  
+  "mezoterapia-title": "Mesotherapy",
+  "mezoterapia-description": "Mesotherapy is a procedure that delivers active substances deep into the skin using microinjections.",
+  "mezoterapia-goal": "The goal of the procedure is to deliver substances that help the skin regenerate and stay moisturized.",
+  "mezoterapia-effect": "Effect: skin rejuvenation, improved elasticity, and hydration.",
+  
+  "lifting-title": "Lifting",
+  "lifting-description": "Lifting is a procedure that helps tighten skin and reduce sagging.",
+  "lifting-goal": "The goal of the procedure is to improve skin elasticity and reduce signs of aging.",
+  "lifting-effect": "Effect: tighter, more youthful skin."
 }

@@ -34,5 +34,56 @@
   "before": "przed",
   "cost": "Cena",
   "duration": "Czas trwania",
-  "sign_up": "Zarejestruj się"
+  "sign_up": "Zarejestruj się",
+
+
+  "depilacja-laserowa-title": "Depilacja Laserowa",
+  "depilacja-laserowa-description": "Depilacja laserowa to bezpieczna i skuteczna metoda usuwania owłosienia. Jest idealnym rozwiązaniem dla osób, które pragną pozbyć się zbędnego owłosienia na długi czas.",
+  "depilacja-laserowa-goal": "Celem zabiegu jest trwałe usunięcie owłosienia, aby zapewnić gładką skórę.",
+  "depilacja-laserowa-effect": "Efekt: gładka skóra, bez podrażnień. Z czasem owłosienie może zacząć odrastać w mniejszych ilościach.",
+  
+  "depilacja-woskiem-title": "Depilacja Woskiem",
+  "depilacja-woskiem-description": "Depilacja woskiem jest metodą, która usuwa owłosienie razem z cebulką. Efekt utrzymuje się do kilku tygodni.",
+  "depilacja-woskiem-goal": "Celem zabiegu jest pozbycie się niechcianego owłosienia na długi czas.",
+  "depilacja-woskiem-effect": "Efekt: gładka skóra na długi czas.",
+  
+  "depilacja-cukrowa-title": "Depilacja Cukrowa",
+  "depilacja-cukrowa-description": "Depilacja cukrowa to naturalna metoda usuwania owłosienia, polegająca na stosowaniu pasty cukrowej. Jest bardziej delikatna niż tradycyjna depilacja woskiem.",
+  "depilacja-cukrowa-goal": "Celem zabiegu jest pozbycie się owłosienia, a także nawilżenie skóry.",
+  "depilacja-cukrowa-effect": "Efekt: gładka skóra i nawilżenie.",
+  
+  "masaz-klasyczny-title": "Masaż Klasyczny",
+  "masaz-klasyczny-description": "Masaż klasyczny to jeden z najstarszych i najbardziej znanych typów masażu. Pomaga w relaksacji mięśni i redukcji napięcia.",
+  "masaz-klasyczny-goal": "Celem masażu klasycznego jest poprawa krążenia, redukcja stresu oraz rozluźnienie mięśni.",
+  "masaz-klasyczny-effect": "Efekt: relaksacja, zmniejszenie napięcia mięśniowego, poprawa samopoczucia.",
+  
+  "masaz-tajski-title": "Masaż Tajski",
+  "masaz-tajski-description": "Masaż tajski to tradycyjna technika relaksacyjna, która łączy akupresurę i rozciąganie. Pomaga w zwiększeniu elastyczności ciała.",
+  "masaz-tajski-goal": "Celem masażu tajskiego jest przywrócenie równowagi energetycznej ciała oraz poprawa elastyczności.",
+  "masaz-tajski-effect": "Efekt: poprawa elastyczności, relaksacja i redukcja napięcia.",
+  
+  "masaz-limfatyczny-title": "Masaż Limfatyczny",
+  "masaz-limfatyczny-description": "Masaż limfatyczny pomaga w poprawie krążenia limfy, wspomagając usuwanie toksyn z organizmu.",
+  "masaz-limfatyczny-goal": "Celem masażu limfatycznego jest wspomaganie układu limfatycznego w usuwaniu toksyn.",
+  "masaz-limfatyczny-effect": "Efekt: poprawa krążenia limfatycznego, zmniejszenie obrzęków, redukcja cellulitu.",
+  
+  "botox-title": "Botox",
+  "botox-description": "Botox to popularny zabieg medycyny estetycznej, który pomaga wygładzić zmarszczki i poprawić wygląd skóry.",
+  "botox-goal": "Celem zabiegu jest wygładzenie zmarszczek oraz poprawa napięcia skóry.",
+  "botox-effect": "Efekt: wygładzenie zmarszczek, młodszy wygląd.",
+  
+  "kwas-hialuronowy-title": "Kwas Hialuronowy",
+  "kwas-hialuronowy-description": "Zabieg z użyciem kwasu hialuronowego polega na wstrzyknięciu substancji, która nawilża i wygładza skórę.",
+  "kwas-hialuronowy-goal": "Celem zabiegu jest nawilżenie skóry oraz uzupełnienie objętości w miejscach, gdzie skóra utraciła elastyczność.",
+  "kwas-hialuronowy-effect": "Efekt: nawilżenie skóry, wygładzenie, poprawa objętości.",
+  
+  "mezoterapia-title": "Mezoterapia",
+  "mezoterapia-description": "Mezoterapia to zabieg, który polega na wprowadzaniu substancji aktywnych do głębszych warstw skóry za pomocą mikroiniekcji.",
+  "mezoterapia-goal": "Celem zabiegu jest dostarczenie skórze substancji, które pomagają w jej regeneracji i nawilżeniu.",
+  "mezoterapia-effect": "Efekt: odmłodzenie skóry, poprawa jej elastyczności i nawilżenia.",
+  
+  "lifting-title": "Lifting",
+  "lifting-description": "Lifting to zabieg, który pomaga w ujędrnieniu skóry i redukcji jej zwiotczenia.",
+  "lifting-goal": "Celem zabiegu jest poprawa napięcia skóry oraz redukcja oznak starzenia.",
+  "lifting-effect": "Efekt: napięta, młodsza skóra."
 }
