@@ -90,5 +90,47 @@
 
    "depilation": "Депиляция",
    "massage": "Массаж",
-   "medical_cosmetology": "Медицинская косметология"
+   "medical_cosmetology": "Медицинская косметология",
+
+ "depilacja_laserowa-title": "Лазерная депиляция",
+  "depilacja_laserowa-description": "Эффективная и безопасная процедура для удаления нежелательных волос с помощью лазера.",
+  "depilacja_laserowa-altText": "Изображение лазерной депиляции",
+  
+  "depilacja_woskiem-title": "Восковая депиляция",
+  "depilacja_woskiem-description": "Удаление волос с использованием воска для гладкой кожи.",
+  "depilacja_woskiem-altText": "Изображение восковой депиляции",
+  
+  "depilacja_cukrowa-title": "Сахарная депиляция",
+  "depilacja_cukrowa-description": "Натуральный способ удаления волос с использованием сахарной пасты.",
+  "depilacja_cukrowa-altText": "Изображение сахарной депиляции",
+  
+  "depilacja_kremem-title": "Кремовая депиляция",
+  "depilacja_kremem-description": "Удаление волос с использованием специальных кремов для депиляции.",
+  "depilacja_kremem-altText": "Изображение депиляции кремом",
+  
+  "masaz_klasyczny-title": "Классический массаж",
+  "masaz_klasyczny-description": "Расслабляющий массаж для восстановления энергии и снятия стресса.",
+  "masaz_klasyczny-altText": "Изображение классического массажа",
+  
+  "masaz_tajski-title": "Тайский массаж",
+  "masaz_tajski-description": "Традиционный тайский массаж для расслабления и улучшения гибкости.",
+  "masaz_tajski-altText": "Изображение тайского массажа",
+  
+  "masaz_limfatyczny-title": "Лимфодренажный массаж",
+  "masaz_limfatyczny-description": "Массаж для улучшения лимфооттока и снятия отечности.",
+  "masaz_limfatyczny-altText": "Изображение лимфодренажного массажа",
+  
+  "masaz_antycellulitowy-title": "Антицеллюлитный массаж",
+  "masaz_antycellulitowy-description": "Массаж для уменьшения целлюлита и улучшения текстуры кожи.",
+  "masaz_antycellulitowy-altText": "Изображение антицеллюлитного массажа",
+  
+
+  "botox-altText": "Изображение процедуры ботокса",
+  
+  "kwas_hialuronowy-title": "Гиалуроновая кислота",
+  "kwas_hialuronowy-description": "Инъекции гиалуроновой кислоты для увлажнения и улучшения текстуры кожи.",
+  "kwas_hialuronowy-altText": "Изображение процедуры с гиалуроновой кислотой",
+
+  "mezoterapia-altText": "Изображение процедуры мезотерапии",
+  "lifting-altText": "Изображение процедуры лифтинга"
 }

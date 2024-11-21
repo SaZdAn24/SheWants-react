@@ -12,7 +12,7 @@ const Card = ({ title, description, imgSrc, altText, id }) => {
         <h3>{title}</h3>
         <p>{description}</p>
         <Link to={`/procedure/${id}`} className="open-modal-btn">➔</Link>
-        <a href="#contact" className="cta-button">{t('sign_up')}</a> {/* Используем t для перевода */}
+        <a href="#contact" className="cta-button">{t('sign_up')}</a> 
       </div>
       <img src={imgSrc} alt={altText} />
     </div>

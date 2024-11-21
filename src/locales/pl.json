@@ -91,5 +91,63 @@
 
    "depilation": "Depilacja",
   "massage": "Masaż",
-  "medical_cosmetology": "Kosmetologia medyczna"
+  "medical_cosmetology": "Kosmetologia medyczna",
+
+
+  "depilacja_laserowa": "Depilacja Laserowa",
+  "depilacja_woskiem": "Depilacja Woskiem",
+  "depilacja_cukrowa": "Depilacja Cukrowa",
+  "depilacja_kremem": "Depilacja Kremem",
+  "masaz_klasyczny": "Masaż Klasyczny",
+  "masaz_tajski": "Masaż Tajski",
+  "masaz_limfatyczny": "Masaż Limfatyczny",
+  "masaz_antycellulitowy": "Masaż Antycellulitowy",
+  "botox": "Botox",
+  "kwas_hialuronowy": "Kwas Hialuronowy",
+  "mezoterapia": "Mezoterapia",
+  "lifting": "Lifting",
+
+
+  "depilacja_laserowa-title": "Depilacja laserowa",
+  "depilacja_laserowa-description": "Skuteczny i bezpieczny zabieg usuwania niechcianych włosów za pomocą lasera.",
+  "depilacja_laserowa-altText": "Zdjęcie depilacji laserowej",
+  
+  "depilacja_woskiem-title": "Depilacja woskiem",
+  "depilacja_woskiem-description": "Usuwanie włosów za pomocą wosku dla gładkiej skóry.",
+  "depilacja_woskiem-altText": "Zdjęcie depilacji woskiem",
+  
+  "depilacja_cukrowa-title": "Depilacja cukrowa",
+  "depilacja_cukrowa-description": "Naturalna metoda usuwania włosów przy użyciu pasty cukrowej.",
+  "depilacja_cukrowa-altText": "Zdjęcie depilacji cukrowej",
+  
+  "depilacja_kremem-title": "Depilacja kremem",
+  "depilacja_kremem-description": "Usuwanie włosów za pomocą specjalnych kremów do depilacji.",
+  "depilacja_kremem-altText": "Zdjęcie depilacji kremem",
+  
+  "masaz_klasyczny-title": "Masaż klasyczny",
+  "masaz_klasyczny-description": "Relaksujący masaż dla przywrócenia energii i złagodzenia stresu.",
+  "masaz_klasyczny-altText": "Zdjęcie masażu klasycznego",
+  
+  "masaz_tajski-title": "Masaż tajski",
+  "masaz_tajski-description": "Tradycyjny masaż tajski dla relaksu i poprawy elastyczności.",
+  "masaz_tajski-altText": "Zdjęcie masażu tajskiego",
+  
+  "masaz_limfatyczny-title": "Masaż limfatyczny",
+  "masaz_limfatyczny-description": "Masaż poprawiający przepływ limfy i redukujący obrzęki.",
+  "masaz_limfatyczny-altText": "Zdjęcie masażu limfatycznego",
+  
+  "masaz_antycellulitowy-title": "Masaż antycellulitowy",
+  "masaz_antycellulitowy-description": "Masaż redukujący cellulit i poprawiający strukturę skóry.",
+  "masaz_antycellulitowy-altText": "Zdjęcie masażu antycellulitowego",
+  
+  "botox-altText": "Zdjęcie zabiegu botoksu",
+  
+  "kwas_hialuronowy-title": "Kwas hialuronowy",
+  "kwas_hialuronowy-description": "Zastrzyki kwasu hialuronowego dla nawilżenia i poprawy struktury skóry.",
+  "kwas_hialuronowy-altText": "Zdjęcie zabiegu z kwasem hialuronowym",
+  
+
+  "mezoterapia-altText": "Zdjęcie zabiegu mezoterapii",
+
+  "lifting-altText": "Zdjęcie zabiegu liftingu"
 }

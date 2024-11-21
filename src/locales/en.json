@@ -89,5 +89,50 @@
 
   "depilation": "Depilation",
   "massage": "Massage",
-  "medical_cosmetology": "Medical Cosmetology"
+  "medical_cosmetology": "Medical Cosmetology",
+
+"depilacja_laserowa-title": "Laser Hair Removal",
+  "depilacja_laserowa-description": "An effective and safe procedure for removing unwanted hair with a laser.",
+  "depilacja_laserowa-altText": "Image of laser hair removal",
+  
+  "depilacja_woskiem-title": "Waxing",
+  "depilacja_woskiem-description": "Hair removal using wax for smooth skin.",
+  "depilacja_woskiem-altText": "Image of waxing",
+  
+  "depilacja_cukrowa-title": "Sugaring",
+  "depilacja_cukrowa-description": "A natural method of hair removal using sugar paste.",
+  "depilacja_cukrowa-altText": "Image of sugaring",
+  
+  "depilacja_kremem-title": "Cream Depilation",
+  "depilacja_kremem-description": "Hair removal using special depilation creams.",
+  "depilacja_kremem-altText": "Image of cream depilation",
+  
+  "masaz_klasyczny-title": "Classic Massage",
+  "masaz_klasyczny-description": "A relaxing massage to restore energy and relieve stress.",
+  "masaz_klasyczny-altText": "Image of classic massage",
+  
+  "masaz_tajski-title": "Thai Massage",
+  "masaz_tajski-description": "Traditional Thai massage for relaxation and improved flexibility.",
+  "masaz_tajski-altText": "Image of Thai massage",
+  
+  "masaz_limfatyczny-title": "Lymphatic Massage",
+  "masaz_limfatyczny-description": "Massage to improve lymphatic flow and reduce swelling.",
+  "masaz_limfatyczny-altText": "Image of lymphatic massage",
+  
+  "masaz_antycellulitowy-title": "Anti-cellulite Massage",
+  "masaz_antycellulitowy-description": "Massage to reduce cellulite and improve skin texture.",
+  "masaz_antycellulitowy-altText": "Image of anti-cellulite massage",
+  
+
+  "botox-altText": "Image of Botox procedure",
+  
+  "kwas_hialuronowy-title": "Hyaluronic Acid",
+  "kwas_hialuronowy-description": "Hyaluronic acid injections for hydration and skin texture improvement.",
+  "kwas_hialuronowy-altText": "Image of hyaluronic acid procedure",
+  
+
+  "mezoterapia-altText": "Image of mesotherapy procedure",
+  
+
+  "lifting-altText": "Image of lifting procedure"
 }

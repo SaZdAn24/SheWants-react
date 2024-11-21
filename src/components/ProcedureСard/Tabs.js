@@ -1,122 +1,118 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';  
 import Card from './Card';
 import TabButtons from './TabButtons';
 import './Tabs.css';
-
 
 import laserImage from "../../assets/laser.jpg"
 import depilacjaWoskiem from "../../assets/lasergolova.jpg"
 import depilacjaCukrowa from "../../assets/lasernogi.jpg"
 
-
 import masażKlasyczny from "../../assets/massaz body.jpg"
 import masażTajski from "../../assets/massaz face.jpg"
 import masażLimfatyczny from "../../assets/massaz face.jpg"
-
 
 import botox from "../../assets/botox.jpg"
 import kwasHialuronowy from "../../assets/Kwas_Hialuronowy.jpg"
 import mezoterapia from "../../assets/mezo.jpg"
 import lifting from "../../assets/lifting.jpg"
 
-
 export const contentData = {
   depilacja: [
     {
-      id: 'depilacja-laserowa', 
-      title: 'Depilacja Laserowa',
-      description: 'Skuteczna metoda usuwania owłosienia na stałe. Efekty widoczne już po kilku zabiegach.',
+      id: 'depilacja-laserowa',
+      title: 'depilacja_laserowa', 
+      description: 'depilacja_laserowa_description',
       imgSrc: laserImage,
-      altText: 'Depilacja Laserowa'
+      altText: 'depilacja_laserowa'
     },
     {
       id: 'depilacja-woskiem',
-      title: 'Depilacja Woskiem',
-      description: 'Szybka i skuteczna metoda usuwania włosów na dłuższy czas.',
+      title: 'depilacja_woskiem',
+      description: 'depilacja_woskiem_description',
       imgSrc: depilacjaCukrowa,
-      altText: 'Depilacja Woskiem'
+      altText: 'depilacja_woskiem'
     },
     {
       id: 'depilacja-cukrowa',
-      title: 'Depilacja Cukrowa',
-      description: 'Naturalna metoda usuwania owłosienia, delikatna dla skóry.',
+      title: 'depilacja_cukrowa',
+      description: 'depilacja_cukrowa_description',
       imgSrc: depilacjaWoskiem,
-      altText: 'Depilacja Cukrowa'
+      altText: 'depilacja_cukrowa'
     },
     {
       id: 'depilacja-kremem',
-      title: 'Depilacja Kremem',
-      description: 'Bezbolesne usuwanie włosów, idealne dla osób z wrażliwą skórą.',
+      title: 'depilacja_kremem',
+      description: 'depilacja_kremem_description',
       imgSrc: laserImage,
-      altText: 'Depilacja Kremem'
+      altText: 'depilacja_kremem'
     }
   ],
   masaż: [
     {
       id: 'masaz-klasyczny',
-      title: 'Masaż Klasyczny',
-      description: 'Relaksacja mięśni и redukcja stresu. Odpowiedni для osób w każdym wieku.',
+      title: 'masaz_klasyczny',
+      description: 'masaz_klasyczny_description',
       imgSrc: masażKlasyczny,
-      altText: 'Masaż klasyczny'
+      altText: 'masaz_klasyczny'
     },
     {
       id: 'masaz-tajski',
-      title: 'Masaż Tajski',
-      description: 'Głębоки masaż z элементами rozciągania, ukierunkowany на równowagę energetyczną.',
+      title: 'masaz_tajski',
+      description: 'masaz_tajski_description',
       imgSrc: masażLimfatyczny,
-      altText: 'Masaż tajski'
+      altText: 'masaz_tajski'
     },
     {
       id: 'masaz-limfatyczny',
-      title: 'Masaż Limfatyczny',
-      description: 'Poprawа krążenia limfy и usuwanie токсyn з organizmu.',
+      title: 'masaz_limfatyczny',
+      description: 'masaz_limfatyczny_description',
       imgSrc: masażTajski,
-      altText: 'Masaż limfatyczny'
+      altText: 'masaz_limfatyczny'
     },
     {
       id: 'masaz-antycellulitowy',
-      title: 'Masaż Antycellulitowy',
-      description: 'Ujędrnienie skóry и redukcja cellulitu.',
+      title: 'masaz_antycellulitowy',
+      description: 'masaz_antycellulitowy_description',
       imgSrc: masażKlasyczny,
-      altText: 'Masaż antycellulitowy'
+      altText: 'masaz_antycellulitowy'
     }
   ],
   medycyna: [
     {
       id: 'botox',
-      title: 'Botox',
-      description: 'Redukcja zmarszczek mimicznych. Szybkie и trwałe efekty.',
+      title: 'botox',
+      description: 'botox_description',
       imgSrc: botox,
-      altText: 'Botox'
+      altText: 'botox'
     },
     {
       id: 'kwas-hialuronowy',
-      title: 'Kwas Hialuronowy',
-      description: 'Nawilżenie и wypełnienie zmarszczek. Widoczne efekty już по pierwszym zabiegu.',
+      title: 'kwas_hialuronowy',
+      description: 'kwas_hialuronowy_description',
       imgSrc: kwasHialuronowy,
-      altText: 'Kwas Hialuronowy'
+      altText: 'kwas_hialuronowy'
     },
     {
       id: 'mezoterapia',
-      title: 'Mezoterapia',
-      description: 'Poprawа jędrności skóry oraz jej regeneracja.',
+      title: 'mezoterapia',
+      description: 'mezoterapia_description',
       imgSrc: mezoterapia,
-      altText: 'Mezoterapia'
+      altText: 'mezoterapia'
     },
     {
       id: 'lifting',
-      title: 'Lifting',
-      description: 'Naturalny efekt liftingu без skalpela.',
+      title: 'lifting',
+      description: 'lifting_description',
       imgSrc: lifting,
-      altText: 'Lifting'
+      altText: 'lifting'
     }
   ]
 };
 
-
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState('medycyna');
-
+  const { t } = useTranslation(); 
   const handleTabClick = (category) => {
     setActiveTab(category);
   };
@@ -127,14 +123,14 @@ const Tabs = () => {
       <section id="zabiegi" className="zabiegi">
         <div className="grid">
           {contentData[activeTab].map((item) => (
-            <Card
-              key={item.id} 
-              id={item.id} 
-              title={item.title}
-              description={item.description}
-              imgSrc={item.imgSrc}
-              altText={item.altText}
-            />
+       <Card
+       key={item.id}
+       id={item.id}
+       title={t(item.title + "-title")}
+       description={t(item.title + "-description")}
+       imgSrc={item.imgSrc}
+       altText={t(item.title + "-altText")}
+     />
           ))}
         </div>
       </section>
@@ -143,4 +139,3 @@ const Tabs = () => {
 };
 
 export default Tabs;
-
