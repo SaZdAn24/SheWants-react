@@ -134,5 +134,14 @@
   "mezoterapia-altText": "Image of mesotherapy procedure",
   
 
-  "lifting-altText": "Image of lifting procedure"
+  "lifting-altText": "Image of lifting procedure",
+
+  "usefulLinks": "USEFUL LINKS",
+    "salonRules": "Salon Rules",
+    "voucherRules": "Voucher Rules",
+    "financialInfo": "FINANCIAL INFORMATION",
+    "companyName": "Face & Body Concept",
+    "bankAccount": "Bank account for transfers:",
+    "contactInfo": "CONTACT INFORMATION",
+    "privacy": "Privacy - Terms of Use"
 }
