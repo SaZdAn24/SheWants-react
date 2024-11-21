@@ -1,26 +1,46 @@
-  .about {
-    background-image: url('../../assets/zastawka.png');
-    background-size: cover;
-    background-position: center;
-    padding: 60px 0;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .about h2 {
-    font-family: var(--decorative-font);
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .about .about-content {
-    height: 500px;
-    width: 900px;
-  }
-  
-  .about p {
-    font-family: var(--main-font);
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
+.about {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1; /* Задний план */
+}
+
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 60vh; /* Высота слайдера теперь 60% от высоты экрана */
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Покрывает весь контейнер */
+  object-position: center top; /* Поднимет изображение вверх */
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2; /* Передний план для кнопок */
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-arrow::before {
+  display: none;
+}
