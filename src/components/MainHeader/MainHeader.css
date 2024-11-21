@@ -155,3 +155,34 @@ nav ul li:hover .submenu {
   height: 20px;
   display: block;
 }
+
+/* Скрыть кнопку меню на больших экранах */
+.hamburger-menu {
+  display: none;
+}
+
+/* Отображать кнопку меню только на мобильных устройствах */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+    font-size: 30px; /* Размер кнопки */
+    cursor: pointer;
+  }
+
+  /* Скрыть меню на мобильных устройствах по умолчанию */
+  nav ul.hidden {
+    display: none;
+  }
+
+  /* Открытое меню */
+  nav ul.open {
+    display: block;
+  }
+}
+
+/* Меню на больших экранах */
+@media (min-width: 769px) {
+  nav ul {
+    display: flex; /* Отображать меню в ряд на больших экранах */
+  }
+}

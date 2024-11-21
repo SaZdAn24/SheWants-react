@@ -9,9 +9,14 @@ import searchIcon from '../../assets/poisk.png';
 function MainHeader() {
   const { t } = useTranslation();
   const [searchVisible, setSearchVisible] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleSearch = () => {
     setSearchVisible(!searchVisible);
+  };
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -26,8 +31,12 @@ function MainHeader() {
         </div>
       </div>
 
+      <div className="hamburger-menu" onClick={toggleMenu}>
+        ☰
+      </div>
+      
       <nav>
-        <ul>
+        <ul className={menuOpen ? 'open' : 'hidden'}>
           <li><Link to="/">{t('menu.home')}</Link></li>
           <li>
             <a href="#about">{t('menu.about')}</a>
