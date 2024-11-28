@@ -1,0 +1,13 @@
+{
+    "contact": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "onlineReservation": "Rezerwacja online"
+    },
+    "financialInfo": {
+      "companyName": "Face & Body Concept",
+      "bankAccount": "Konto bankowe do przelewów:"
+    }
+  }
+  

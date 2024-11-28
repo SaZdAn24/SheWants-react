@@ -1,0 +1,27 @@
+{
+    "menu": {
+      "home": "Strona główna",
+      "about": "O nas",
+      "team": "Zespół",
+      "office": "Biuro",
+      "metamorphoses": "Metamorfozy",
+      "services": "Usługi",
+      "laserHairRemoval": "Depilacja laserowa",
+      "skinCare": "Pielęgnacja skóry",
+      "offer": "Oferta",
+      "face": "Twarz",
+      "body": "Ciało",
+      "intimateAreas": "Okolice intymne",
+      "yourProblem": "Twój problem",
+      "technology": "Technologia",
+      "prices": "Cennik",
+      "cosmetology": "Kosmetologia",
+      "aestheticMedicine": "Medycyna estetyczna",
+      "contact": "Kontakt"
+    },
+    "bookAppointment": "Umów wizytę",
+    "searchAlt": "Szukaj",
+    "searchPlaceholder": "Wpisz swoje zapytanie",
+    "searchButton": "Szukaj"
+  }
+  

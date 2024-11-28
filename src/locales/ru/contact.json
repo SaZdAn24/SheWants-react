@@ -1,0 +1,13 @@
+{
+    "contact": {
+      "address": "Адрес",
+      "phone": "Телефон",
+      "email": "Электронная почта",
+      "onlineReservation": "Онлайн-бронирование"
+    },
+    "financialInfo": {
+      "companyName": "Face & Body Concept",
+      "bankAccount": "Банковский счёт для переводов:"
+    }
+  }
+  

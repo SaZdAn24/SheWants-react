@@ -1,0 +1,16 @@
+{
+    "messages": {
+      "procedureNotFound": "Procedure not found",
+      "successMessage": "Your message has been sent successfully!",
+      "errorMessage": "An error occurred while sending the form. Please try again."
+    },
+    "form": {
+      "yourName": "Your Name",
+      "yourEmail": "Your Email",
+      "yourPhone": "Your Phone Number",
+      "yourMessage": "Your Message",
+      "submit": "Submit",
+      "close": "Close"
+    }
+  }
+  

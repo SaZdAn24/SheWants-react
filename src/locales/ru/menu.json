@@ -1,0 +1,27 @@
+{
+    "menu": {
+      "home": "Главная",
+      "about": "О нас",
+      "team": "Команда",
+      "office": "Офис",
+      "metamorphoses": "Метаморфозы",
+      "services": "Услуги",
+      "laserHairRemoval": "Лазерная эпиляция",
+      "skinCare": "Уход за кожей",
+      "offer": "Предложения",
+      "face": "Лицо",
+      "body": "Тело",
+      "intimateAreas": "Интимные зоны",
+      "yourProblem": "Ваша проблема",
+      "technology": "Технологии",
+      "prices": "Цены",
+      "cosmetology": "Косметология",
+      "aestheticMedicine": "Эстетическая медицина",
+      "contact": "Контакты"
+    },
+    "bookAppointment": "Записаться на приём",
+    "searchAlt": "Поиск",
+    "searchPlaceholder": "Введите ваш запрос",
+    "searchButton": "Искать"
+  }
+  

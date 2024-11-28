@@ -1,0 +1,54 @@
+{
+    "procedures": {
+      "depilacja-laserowa-title": "Depilacja laserowa",
+      "depilacja-laserowa-description": "Depilacja laserowa to bezpieczna i skuteczna metoda usuwania owłosienia. Idealna dla osób, które chcą pozbyć się niechcianych włosów na długi czas.",
+      "depilacja-laserowa-goal": "Celem zabiegu jest trwałe usunięcie włosów, pozostawiając skórę gładką.",
+      "depilacja-laserowa-effect": "Efekt: gładka skóra, brak podrażnień. Z czasem włosy mogą odrastać w mniejszej ilości.",
+      
+      "depilacja-woskiem-title": "Depilacja woskiem",
+      "depilacja-woskiem-description": "Depilacja woskiem to metoda, która usuwa włosy z korzeniami. Efekt utrzymuje się przez kilka tygodni.",
+      "depilacja-woskiem-goal": "Celem zabiegu jest usunięcie niechcianych włosów na dłuższy czas.",
+      "depilacja-woskiem-effect": "Efekt: gładka skóra na dłużej.",
+      
+      "depilacja-cukrowa-title": "Depilacja cukrowa",
+      "depilacja-cukrowa-description": "Depilacja cukrowa to naturalna metoda usuwania owłosienia za pomocą pasty cukrowej. Jest delikatniejsza niż tradycyjna depilacja woskiem.",
+      "depilacja-cukrowa-goal": "Celem zabiegu jest usunięcie owłosienia i nawilżenie skóry.",
+      "depilacja-cukrowa-effect": "Efekt: gładka i nawilżona skóra.",
+      
+      "masaz-klasyczny-title": "Masaż klasyczny",
+      "masaz-klasyczny-description": "Masaż klasyczny to jeden z najstarszych i najbardziej znanych rodzajów masażu. Pomaga zrelaksować mięśnie i złagodzić napięcie.",
+      "masaz-klasyczny-goal": "Celem masażu klasycznego jest poprawa krążenia, redukcja stresu i rozluźnienie mięśni.",
+      "masaz-klasyczny-effect": "Efekt: relaksacja, zmniejszone napięcie mięśniowe, poprawa samopoczucia.",
+      
+      "masaz-tajski-title": "Masaż tajski",
+      "masaz-tajski-description": "Masaż tajski to tradycyjna technika relaksacyjna, która łączy akupresurę i rozciąganie. Pomaga poprawić elastyczność ciała.",
+      "masaz-tajski-goal": "Celem masażu tajskiego jest przywrócenie równowagi energetycznej organizmu i poprawa elastyczności.",
+      "masaz-tajski-effect": "Efekt: poprawiona elastyczność, relaksacja i zmniejszenie napięcia.",
+      
+      "masaz-limfatyczny-title": "Masaż limfatyczny",
+      "masaz-limfatyczny-description": "Masaż limfatyczny pomaga poprawić krążenie limfy i wspiera usuwanie toksyn z organizmu.",
+      "masaz-limfatyczny-goal": "Celem masażu limfatycznego jest wsparcie układu limfatycznego w usuwaniu toksyn.",
+      "masaz-limfatyczny-effect": "Efekt: poprawione krążenie limfatyczne, zmniejszenie obrzęków, redukcja cellulitu.",
+      
+      "botox-title": "Botoks",
+      "botox-description": "Botoks to popularny zabieg kosmetyczny, który pomaga wygładzić zmarszczki i poprawić wygląd skóry.",
+      "botox-goal": "Celem zabiegu jest wygładzenie zmarszczek i poprawa elastyczności skóry.",
+      "botox-effect": "Efekt: wygładzenie zmarszczek, młodszy wygląd.",
+      
+      "kwas-hialuronowy-title": "Kwas hialuronowy",
+      "kwas-hialuronowy-description": "Zabieg z użyciem kwasu hialuronowego polega na wstrzykiwaniu substancji, która nawilża i wygładza skórę.",
+      "kwas-hialuronowy-goal": "Celem zabiegu jest nawilżenie skóry i przywrócenie objętości tam, gdzie utraciła elastyczność.",
+      "kwas-hialuronowy-effect": "Efekt: nawilżenie skóry, wygładzenie, przywrócenie objętości.",
+      
+      "mezoterapia-title": "Mezoterapia",
+      "mezoterapia-description": "Mezoterapia to zabieg polegający na dostarczaniu aktywnych substancji w głąb skóry za pomocą mikroiniekcji.",
+      "mezoterapia-goal": "Celem zabiegu jest dostarczenie substancji wspomagających regenerację i nawilżenie skóry.",
+      "mezoterapia-effect": "Efekt: odmłodzenie skóry, poprawa elastyczności i nawilżenie.",
+      
+      "lifting-title": "Lifting",
+      "lifting-description": "Lifting to zabieg, który pomaga ujędrnić skórę i zredukować jej wiotczenie.",
+      "lifting-goal": "Celem zabiegu jest poprawa elastyczności skóry i redukcja oznak starzenia.",
+      "lifting-effect": "Efekt: bardziej jędrna, młodziej wyglądająca skóra."
+    }
+  }
+  

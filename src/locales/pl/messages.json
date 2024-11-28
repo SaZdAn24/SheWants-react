@@ -1,0 +1,16 @@
+{
+    "messages": {
+      "procedureNotFound": "Nie znaleziono procedury",
+      "successMessage": "Twoja wiadomość została pomyślnie wysłana!",
+      "errorMessage": "Wystąpił błąd podczas wysyłania formularza. Proszę spróbuj ponownie."
+    },
+    "form": {
+      "yourName": "Twoje imię",
+      "yourEmail": "Twój email",
+      "yourPhone": "Twój numer telefonu",
+      "yourMessage": "Twoja wiadomość",
+      "submit": "Wyślij",
+      "close": "Zamknij"
+    }
+  }
+  
